@@ -1,0 +1,171 @@
+/* General Site-Wide Stuff */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio, .about, .contact {
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Top Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    padding: 15px 100px;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-placeholder {
+    color: #C9B37E;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 20px;
+} 
+
+.nav-right {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-right li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #7D263B;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 40px;
+    background-color: #2C2C2C;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project img {
+    max-width: 40%;
+    height: auto;
+    padding-left: 20px;
+}
+
+.project .text-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project .text-content ul li {
+    text-align: left;
+}
+
+.project h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project p {
+    margin-top: 5px;
+}
+
+/* About Me */
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact Form */
+.form-mock {
+    background-color: #C9B37E;
+    padding: 30px;
+    border-radius: 5px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field {
+    background-color: white;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px;
+    color: #2C2C2C;
+}
+
+.submit-button {
+    background-color: #7D263B;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* LinkedIn */
+.linkedin-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0077b5;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.linkedin-button:hover {
+    background-color: #005a8e;
+    transform: scale(1.05);
+}
